@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+
+  /* padding: 0; */
+}
+
+/* navbar styling */
+
+.nav-container {
+  background-color: blue;
+  min-width: 100vw;
+  position: fixed;
+}
+
+.container-fluid {
+  padding: 0 103.6px;
+}
+
+.navbar-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-brand img {
+  max-height: 46.275px;
+}
+
+.icon-nav img {
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.nav-link {
+  margin-right: 30px;
+  color: #f1f1f1;
+}
+
+.navbar-item-right {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* end of navbar style */
+
+/* style of jumbotron */
+.jumbotron {
+  min-height: 500px;
+  background-color: pink;
+}
+/* end of jumbotron */
+
+/* about us style */
+.container-about {
+  min-height: 325px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-about {
+  color: white;
+}
+
+/* end of about us */
